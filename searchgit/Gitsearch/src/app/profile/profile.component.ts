@@ -37,7 +37,7 @@ findProfile(){
   })
 }
   ngOnInit() {
-    this.profileService.updateProfile('mansamusah');
+    this.profileService.updateProfile('mansamusah254');
     this.profileService.getProfileInfo().subscribe(profile => this.profile = profile);
     this.profileService.getProfileRepos().subscribe(repos =>  this.repos = repos);
   }
